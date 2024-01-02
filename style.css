@@ -1,0 +1,157 @@
+*{
+            outline: none;
+            border: 0;
+            margin: 0;
+            box-sizing: content-box;
+            font-family: cursive;
+            scroll-behavior: smooth;
+        }
+        body{
+            background-color: #2f2a52;
+        }
+        .maincnt img{
+            position: absolute;
+            z-index: -1;
+            width: 100%;
+            height: auto;
+        }
+        .maincnt{
+            width: 100%;
+            height: 100vh;
+        }
+        .navbar{
+            display: flex;
+            justify-content: flex-end;
+            width: 100%;
+        }
+        .navbar a{
+            text-transform: capitalize;
+            text-decoration: none;
+            margin: 1rem;
+            color: whitesmoke;
+            font-size: 1rem;
+            text-shadow: 2px 2px 5px black;
+        }
+        .navbar a:hover{
+            border-bottom: 2px solid whitesmoke;
+        }
+        .navbar .book{
+            border: 3px solid rgba(245, 245, 245, 0.292);
+            border-radius: 10px;
+        }
+        .ridecnt{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding-top:4rem;
+            padding-bottom:4rem;
+        }
+        .ride{
+            padding: 1rem;
+            width: 25%;
+        }
+        .ride img{
+            width: 100%;
+            outline: 1px solid whitesmoke;
+            outline-offset: 6px;
+        }
+        .ride:nth-child(1) img{
+            border-radius: 65% 25% 25% 65% / 40% 0% 0% 40%;
+        }
+        .ride:nth-child(3) img{
+            border-radius: 25% 65% 65% 25% / 0% 40% 40% 0%;
+        }
+        .ride legend{
+            color: whitesmoke;
+            font-size: 2rem;
+            text-transform: capitalize;
+        }
+        .ridecnt .ride:nth-child(1) legend{
+            text-align: right;
+        }
+        .ridecnt .ride:nth-child(2) legend{
+            text-align: center;
+        }
+        .food{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 1rem;
+        }
+        .food img{
+            width: 20%;
+        }
+        .food img:nth-child(1){
+            rotate: 5deg;
+        }
+        .food img:nth-child(2){
+            rotate: -10deg;
+        }
+        .food img:nth-child(3){
+            outline: 1px solid whitesmoke;
+            outline-offset: 5px;
+        }
+        .foodline{
+            width: 30vw;
+            height: 20vw;
+            background: rgba(122,66,219,0.2);
+            -webkit-backdrop-filter: blur(3px);
+            backdrop-filter: blur(3px);
+            border-radius: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .foodline p{
+            text-transform: capitalize;
+            color: whitesmoke;
+            font-size: 1.2rem;
+            text-align: center;
+        }
+        .foodline button{
+            background-color:yellow;
+            border-radius: 5px;
+            font-size: 2rem;
+        }
+        .merch{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .merch img{
+            outline: 1px solid whitesmoke;
+            outline-offset: 5px;
+        }
+        .merch img:nth-child(1){
+            width: 30%;
+            height: auto;
+        }
+        .merch img:nth-child(2){
+            width: 25%;
+            height: auto;
+        }
+        .merchline{
+            position: absolute;
+            width: 30vw;
+            height: 20vw;
+            background: rgba(47,42,82,0.3);
+            -webkit-backdrop-filter: blur(3px);
+            backdrop-filter: blur(3px);
+            border-radius: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .merchline p{
+            text-transform: capitalize;
+            color: whitesmoke;
+            font-size: 2rem;
+            text-align: center;
+        }
+        .merchline button{
+            background-color: yellow;
+            border-radius: 5px;
+            font-size: 2rem;
+        }
